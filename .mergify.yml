@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: c5 base config marker
+    conditions:
+      - "label=c5-never"
+    actions:
+      comment:
+        message: "C5-BASE-CONFIG-EXECUTED"
